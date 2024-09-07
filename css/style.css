@@ -1,0 +1,118 @@
+:root {
+  --primerColor: rgb(6, 4, 7);
+  --segundo-color: rgb(34, 118, 207);
+}
+
+/* section1 */
+.bg {
+  background-color: var(--primerColor);
+}
+.section1 {
+  height: 100vh;
+}
+@media (max-width: 990px) {
+  .section1 {
+    height: 70vh;
+  }
+}
+@media (max-width: 576px) {
+  .section1 {
+    height: 80vh;
+  }
+}
+/* phrase1 */
+.bg {
+  background-color: black;
+}
+.phrase1 {
+  padding: 6rem 9rem;
+}
+@media (max-width: 1220px) {
+  .phrase1 {
+    padding: 2rem 6rem;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .phrase1 {
+    padding: 1rem 4rem;
+    font-size: 20px;
+  }
+  .text-phrase {
+    font-size: 1.6rem;
+  }
+  .steve-jobs {
+    font-size: 1rem;
+  }
+}
+/* section2 */
+.section2 {
+  height: 100vh;
+}
+@media (max-width: 990px) {
+  .section2 {
+    height: 80vh;
+  }
+}
+@media (max-width: 576px) {
+  .section2 {
+    height: 80vh;
+  }
+  /* phrase 1 */
+  .phrase1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0px;
+    padding-top: 4rem;
+  }
+  .text-phrase,
+  .text-projects {
+    font-size: 1rem;
+  }
+  .steve-jobs {
+    font-size: 0.5rem;
+  }
+}
+/* section3 */
+.section3 {
+  height: 100vh;
+}
+@media (max-width: 480px) {
+  .text-projects {
+    padding-bottom: 4rem;
+  }
+}
+/* Section4 */
+.section4 {
+  height: 100vh;
+}
+.robot {
+  padding-right: 15rem;
+  padding-left: 15rem;
+  padding-top: 5rem;
+}
+@media (max-width: 1220px) {
+  .robot {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .section4 {
+    height: 80vh;
+  }
+}
+@media (max-width: 480px) {
+  .robot {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .section4 {
+    height: 60vh;
+  }
+  .section3 {
+    height: 50vh;
+  }
+}
